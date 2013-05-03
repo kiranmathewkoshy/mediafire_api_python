@@ -5,14 +5,6 @@ import json
 print 'Welcome.'
 print 'Programmed by Kiran Mathew Koshy'
 
-#Proxy Support
-opener = urllib2.build_opener(
-                urllib2.HTTPHandler(),
-                urllib2.HTTPSHandler(),
-                urllib2.ProxyHandler({'https': 'http://kiran.ee11:hashtag@172.16.1.10:3128',
-                	'http': 'http://kiran.ee11:hashtag@172.16.1.10:3128'}))
-urllib2.install_opener(opener)
-
 #Global Variables
 
 API_VERSION=''
@@ -20,12 +12,12 @@ SESSION_TOKEN=''
 TOS=''
 ACCEPTANCE_TOKEN=''
 #App data
-APP_ID='33772'
-API_KEY='ohx5bni48yfz51ec2a5nbx13ny88kaccpy6n0ikq'
+APP_ID=''
+API_KEY=''
 
 #User Data
-EMAIL='kiranmathewkoshy@gmail.com'
-PASSWORD='kiran2478'
+EMAIL=''
+PASSWORD=''
 FIRST_NAME=''
 LAST_NAME=''
 DISPLAY_NAME=''
